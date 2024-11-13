@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#cars_main_frame {
+  margin: 170px 257px 126px 260px;
+  display: flex;
+}
+.car_types {
+  display: flex;
+  flex-direction: column;
+  width: 307px;
+  height: 500px;
+
+  color: #ffffff;
+  padding: 45px;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+#sedan {
+  background-color: #e28525;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.car_types img {
+  width: 64px;
+  height: 40px;
+}
+.car_types h3 {
+  font-family: Big Shoulders Display;
+  font-size: 47px;
+}
+.car_types p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: "Lexend Deca";
+  line-height: 1.8;
+}
+.car_types button {
+  border-radius: 25px;
+  background-color: #ffffff;
+  width: 147px;
+  height: 48px;
+  font-family: "Lexend Deca";
+  letter-spacing: 1px;
+  font-size: 16px;
+  border: none;
+}
+#sedan button {
+  color: #b79071;
+}
+#suv {
+  background-color: #016972;
+}
+#luxury {
+  background-color: #00403f;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+#suv button {
+  color: #749d9f;
+}
+#luxury button {
+  color: #173130;
+}
